@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: grey;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+  width: 55%;
+  display: flex;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Georgina";
+  padding: 5px 30px;
+  flex: 1;
+}
+
+#nav {
+  flex: 2;
+  display: flex;
+  list-style: none;
+  padding: 3%;
+  justify-content: center;
+  width: 100%;
+}
+
+#nav li a {
+  padding: 5px 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#nav a:hover {
+  color: blue;
+  background-color: black;
+}
+
+.blue-blackground {
+  background-color: rgb(26, 88, 126);
+  width: 100%;
+}
+
+.content-block {
+  display: flex;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collumn-content {
+  flex: 1;
+  border: 2px solid;
+  border-color: rgb(90, 89, 89);
+  margin: 10px;
+}
+
+.collumn-content h2 {
+  color: white;
+  font-size: medium;
+  text-align: center;
+}
+
+.collumn-content p {
+  color: white;
+  font-size: small;
+  padding: 5px;
+  font-weight: 5;
+}
+
+.grey-block {
+  background-color: rgb(223, 218, 218);
+  display: flex;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.links-block {
+  background-color: white;
+  color: black;
+  width: 40%;
+  margin: 5px;
+}
+.links-block h2 {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+#links {
+  list-style: none;
+}
+
+#links li a {
+  padding: 5px 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.extra-support-block {
+  background-color: white;
+  margin: 5px;
+  width: 100%;
+}
+
+.extra-support-block h2 {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.extra-support-block p {
+  font-size: 15px;
+  margin-left: 15px;
+  padding-right: 10px;
+  text-align: justify;
+}
+.footerlink {
+  display: flex;
+}
+
+.bullet-links {
+  flex: 1;
+  padding-left: 80px;
+}
+
+.bullet-links li a {
+  color: blue;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.number-links li a {
+  color: blue;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.number-links {
+  flex: 1;
+}
+
+.contact-us-block {
+  background-color: black;
+  display: flex;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-left {
+  flex: 1;
+}
+
+.picture {
+  flex: 3;
+}
+
+.logo {
+  text-align: left;
+  padding-left: 150px;
+}
+
+.logo img {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.picture h3 {
+  text-align: left;
+  padding-left: 100px;
+  font-size: 13px;
+  color: white;
+}
+
+.copyright {
+  flex: 1;
+  font-size: 13px;
+  text-align: right;
+  color: white;
+  padding-top: 80px;
+  padding-right: 20px;
+}
